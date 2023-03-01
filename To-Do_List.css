@@ -1,0 +1,172 @@
+body {
+  color: #333;
+  font-family: Lato, sans-serif;
+  background-image: url(https://phonoteka.org/uploads/posts/2021-04/1619091264_8-phonoteka_org-p-krasivie-foni-dlya-dnevnika-8.jpg);
+  background-attachment: scroll;
+
+}
+.container {
+  background-color:White;
+  display: block;
+  width: 600px;
+  position: inherit;
+  border: solid black;  
+  border-radius: 20px;
+  padding: 3%;
+  margin-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+li * {
+  float: left;
+}
+li, h3 {
+  clear:both;
+  list-style:none;
+}
+input, button {
+  outline: none;
+}
+button 
+{
+  border: solid silder;
+  border-radius: 5px;
+  background: green;
+  color: white;
+  font-size: 15px;
+  width: 80px;
+  float: right;
+  font-family: Lato, sans-serif;
+  cursor: pointer;
+}
+button:hover {
+  transition: 0.7s;
+}
+button:hover 
+{
+  color: #333;
+  -webkit-box-shadow: 0px 0px 5px 1px rgba(116, 197, 0, 0.58);
+  -moz-box-shadow: 0px 0px 5px 1px rgba(116, 197, 0, 0.58);
+  box-shadow: 0px 0px 5px 1px rgba(116, 197, 0, 0.58);
+}
+h3,
+label[for='new-task'] 
+{
+  color: #333;
+  font-weight: 700;
+  font-size: 15px;
+  border-bottom: 2px solid #333;
+  padding: 30px 0 10px;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+input[type="text"] 
+{
+  margin: 0;
+  font-size: 1.2em;
+  line-height: 18px;
+  height: 18px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  background: #fff;
+  border-radius: 6px;
+  font-family: Lato, sans-serif;
+  color: #888;
+  
+}
+
+input[type="text"]:focus 
+{
+  color: rgb(51, 51, 51);
+}
+
+
+label[for='new-task'] {
+  display: block;
+  margin: 0 0 20px;
+  font-size: 1.2em; 
+}
+input#new-task {
+  float: left;
+  width: 85%;
+}
+
+input#new-task:hover {
+  -webkit-transition: all.6s ease;
+  -moz-transition: all.6s ease;
+  -o-transition: all.6s ease;
+  transition: all.6s ease;
+}
+
+input#new-task:hover {
+  -webkit-box-shadow: 0px 0px 5px 1px rgba(116, 197, 0, 0.58);
+  -moz-box-shadow: 0px 0px 5px 1px rgba(116, 197, 0, 0.58);
+  box-shadow: 0px 0px 5px 1px rgba(116, 197, 0, 0.58);
+}
+
+p > button:hover {
+  color: #0FC57C;
+}
+
+
+li {
+  overflow: hidden;
+  padding: 20px 0;
+  border-bottom: 1px solid #eee;
+  
+}
+li > input[type="checkbox"] {
+  margin: 0 10px 0 0;
+  position: relative;
+  top: 3px;
+}
+li > label {
+  font-size: 18px;
+  line-height: 40px;
+  width: 400px;
+  padding: 0 0 0 11px;
+}
+li >  input[type="text"] {
+  width: 400px;
+}
+li > .delete:hover {
+  color: #CF2323;
+}
+
+
+#completed-tasks label {
+  text-decoration: line-through;
+  color: rgb(228, 9, 9);
+}
+
+
+ul li input[type=text] {
+  display:none;
+}
+
+ul li.editMode input[type=text] {
+  display:block;
+  
+}
+
+ul li.editMode label {
+  display:none;
+  
+}
+
+.taskTextArea {
+  width: 65%;
+}
+
+.taskText {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  hyphens: manual;
+}
